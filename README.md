@@ -7,3 +7,7 @@ The converted file will end up at the same place as where the original file was 
 
 # Usage for decompiled file
 Import this file into your Minecraft Alpha 1.1.2_01 or similar version project, and set up the Model(Entityname), Render(Entityname), and Entity(entityname). I have only tested this using "AlphaMCP2".
+
+# Currently known problems
+- Doesn't support rotations yet.
+- Changing pivot point acts like changing position sometimes.
