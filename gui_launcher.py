@@ -34,11 +34,11 @@ class AlphaConverterGUI:
         btn_frame = tk.Frame(self.root, bg=COLOR_BG)
         btn_frame.pack(pady=20)
 
-        self.create_retro_button(btn_frame, "Browse...", self.browse_file).pack(side="left", padx=5)
+        self.create_button(btn_frame, "Browse...", self.browse_file).pack(side="left", padx=5)
 
-        self.create_retro_button(btn_frame, "Convert!", self.start_conversion, width=15).pack(side="left", padx=5)
+        self.create_button(btn_frame, "Convert!", self.start_conversion, width=15).pack(side="left", padx=5)
 
-    def create_retro_button(self, parent, text, command, width=10):
+    def create_button(self, parent, text, command, width=10):
         return tk.Button(parent, text=text, command=command, width=width,
                          bg=COLOR_BTN, font=self.classic_font,
                          relief="raised", bd=2, activebackground=COLOR_BTN)
