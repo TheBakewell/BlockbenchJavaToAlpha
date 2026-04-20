@@ -9,6 +9,4 @@ The converted file will end up at the same place as where the original file was 
 Import this file into your Minecraft Alpha 1.1.2_01 or similar version project, and set up the Model(Entityname), Render(Entityname), and Entity(entityname). I have only tested this using "AlphaMCP2".
 
 # Currently known problems
-- Doesn't support rotations yet.
-- Doesn't yet automatically assume texture size.
-- Changing pivot point acts like changing position sometimes before converting model.
+- May rarely not convert a couple cubes on more complex models, or on models with duplicated parts.
