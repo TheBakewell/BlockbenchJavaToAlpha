@@ -11,4 +11,4 @@ Import this file into your Minecraft Alpha 1.1.2_01 or similar version project, 
 # Currently known problems
 - Doesn't support rotations yet.
 - Doesn't yet automatically assume texture size.
-- Changing pivot point acts like changing position sometimes.
+- Changing pivot point acts like changing position sometimes before converting model.
